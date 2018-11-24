@@ -1,0 +1,8 @@
+@model IEnumerable<TodoList>
+<h1>My Todo List DB</h1>
+<ul>
+    @foreach (var item in Model)
+    {
+        <li>@item.task</li>
+    }
+</ul>
